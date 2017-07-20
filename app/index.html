@@ -1,30 +1,35 @@
-<div class="page page-left">    
-                
-    <div class="half-page front-page">
-        
-    </div>
-    <div class="half-page back-page">
-       
-    </div>
-</div>
+<!DOCTYPE html>
+<html>
 
-<div class="page page-turn">       
-    <div class="half-page front-page">
-       
-    </div>
-    <div class="half-page back-page">
-        
-    </div>
-</div>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Christmas</title>
+    <link rel='stylesheet' href='css/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
-<div class="page page-right">  
+<body>
+    <section class="container">
+        <!-- Picture1 -->
+        <section class="page-a bg-adaptive">
+        </section>
+        <!-- Picture2 -->
+        <section class="page-b bg-adaptive">
+        </section>
+        <!-- Picture3 -->
+        <section class="page-c bg-adaptive">
+        </section>
+    </section>
+    Choose Page
+    <select id="choose">
+        <option value="page-a" selected="">1</option>
+        <option value="page-b">2</option>
+        <option value="page-c">3</option>
+    </select>
+</body>
 
-    <div class="half-page front-page">
-       
-    </div>
-    <div class="half-page back-page">
-       
-    </div>
-</div>
-
-<% include TurnedPages %>
+<script src="js/pageC.js"></script>
+<script src="js/pageB.js"></script>
+<script src="js/pageA.js"></script>
+<script src="js/main.js"></script>
+</html>
